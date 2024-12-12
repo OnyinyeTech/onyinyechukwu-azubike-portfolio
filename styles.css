@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: black;
+  color: white;
+}
+header, footer {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  background-color: rgb(31, 29, 29);
+  padding: 1rem 20rem 1rem 20rem;
+  font-size: .8rem;
+}
+.nav-list {
+  display: flex;
+  flex: 1;
+  gap: 1rem;
+  list-style: none;
+}
+nav a:hover{
+  color: dodgerblue;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.btn a:hover{
+  background-color: green;
+  color: white;
+}
+.container{
+ text-align: center;
+  font-size: .8rem;
+  padding: 0 20rem 0 20rem;
+}
+.profile, .title, .description, .btn, .exp {
+    margin-top: 1rem;
+}
+.description{
+   margin-bottom: 2rem;
+   color: #bdb8b8;
+}
+h1 {
+    font-size: 2rem;
+}
+.profile img{
+  width: 10%;
+  height: auto;
+  border-radius:45%;
+  margin-top: 2.5rem;
+  margin-bottom: .5rem;
+}
+p{
+  font-size: 1.05rem;
+  color: #bdb8b8;
+}
+.btn a{
+  border: .1rem solid white;
+  padding: .3rem 1rem .3rem 1rem;
+  border-radius: 2rem;
+  margin: .5rem;
+}
+.exp{
+  margin-top: 5rem;
+}
+.img{
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+ 
+}
+.img img{
+  width: 5%;
+  height: auto;
+  margin: 2rem 0 0 0;
+}
+h5{
+  font-size: 1.1rem;
+}
+.project{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.project h2{
+  color: rgb(216, 104, 70);
+}
+.education h2{
+  color: rgb(61, 61, 245);
+}
+.education{
+  margin-bottom: 4rem;
+}
+.contact{
+  text-align: left;
+}
+.contact h4{
+margin-bottom: 1.5rem;
+margin-top: 2rem;
+font-size: 1.3rem;
+}
+.fa{
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  color: #bdb8b8;
+ }
+ .pro{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+ }
+ .pro img{
+  border-radius: .5rem;
+ }
+ .pro h4{
+  color: rgb(216, 104, 70);
+  font-size: 1.1rem;
+ }
+span{
+  color: rgb(216, 104, 70);
+}
+html{
+  scroll-behavior: smooth;
+}
+
+#goUpBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: .8rem 1rem;
+  cursor: pointer;
+}
+
+#goUpBtn:hover {
+  background-color: #0056b3;
+}
+
+
+@media (max-width: 1100px) {
+  .container{
+    padding: 0 5rem 0 5rem;
+   }
+   header, footer {
+    padding: 1rem 5rem 1rem 5rem;
+  }
+  .img img{
+    width: 10%;
+    height: auto;
+    margin: 2rem 0 0 0;
+  }
+  .profile img{
+    width: 20%;
+    height: auto;
+  }
+ #pro1{
+    width: 100%;
+  }
+  #pro2{
+    width: 120%;
+  }
+  .pro{
+    gap: 1rem;
+    justify-content: center;
+   }
+   .pro h4{
+    font-size: 1rem;
+   }
+}
