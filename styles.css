@@ -112,9 +112,9 @@ font-size: 1.3rem;
  }
  .pro{
   display: flex;
-  gap: 2rem;
   justify-content: center;
   margin-top: 2rem;
+  gap: 2rem;
  }
  .pro img{
   border-radius: .5rem;
@@ -165,13 +165,13 @@ html{
     height: auto;
   }
  #pro1{
-    width: 100%;
+    width: 82%;
   }
   #pro2{
-    width: 120%;
+    width: 100%;
   }
   .pro{
-    gap: 1rem;
+    gap: .3rem;
     justify-content: center;
    }
    .pro h4{
